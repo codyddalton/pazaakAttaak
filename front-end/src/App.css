@@ -1,0 +1,145 @@
+.App {
+  background-color: #4d4c4c;
+  height:100%;
+  width:100%;
+  display:flex;
+  flex-direction: column;
+  font-size:16;
+  align-items: center;
+}
+.Display {
+  border:3px solid rgba(255, 255, 0, 0.623);
+  width:96%;
+  height:60vh;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius:10px;
+  -webkit-box-shadow: 3px 6px 8px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 6px 8px -3px rgba(0,0,0,0.75);
+  box-shadow: 3px 6px 8px -3px rgba(0,0,0,0.75);
+}
+.Player-header{
+  display:flex;
+  flex-direction: row;
+  font-family:'Sci-fi';
+  width:100%;
+  margin-top:0;
+  justify-content: space-evenly;
+  color:white;
+}
+.Player-zone {
+  background-color: #ffffff2d;
+  margin-left:0px;
+  margin-right:1%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  height:93%;
+  border-radius:5px;
+}
+.Dealer-zone {
+  background-color: #ffffff2d;
+  margin-left:1%;
+  margin-right:0px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  height:93%;
+  border-radius:5px;
+}
+.Player-total {
+  font-size:1.25rem;
+  font-family:'Sci-fi';
+  font-weight:500;
+  color:rgba(255, 255, 255, 0.514);
+}
+.Game-ui {
+  margin-top:1%;
+  margin-bottom:1%;
+  width:100%;
+  height:14vh;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Side-deck {
+  width:60vh;
+  background-color: #706c6c;
+}
+  
+.Side-deck-div {
+  display:grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  grid-column-gap:20px;
+  width:100%;
+  grid-template-rows: 90px;
+  margin-left:2%;
+  margin-top:1%;
+  margin-right:5%;
+}
+.Side-card-item {
+  margin-top:1%;
+  width:90%;
+  height:90%;
+  color:white;
+  border:2px solid white;
+  font-size:1.75rem;
+  line-height:90px;
+  border-radius: 5px;
+  font-weight:900;
+  font-family:'Sci-fi';
+  text-align:center;
+  background-color: rgba(255, 255, 255, 0.308);
+}
+.Butn-div {
+  display:flex;
+  flex-direction: row;
+  width:80vh;
+  height:60%;
+  justify-content: space-evenly;
+}
+.Game-butn {
+  font-family:'Sci-fi';
+  font-size:1.25rem;
+  font-weight:600;
+  text-transform: uppercase;
+  color:#4d4c4c;
+  padding:10px;
+  width:125px;
+  cursor:pointer;
+  -webkit-box-shadow: 3px 6px 8px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 6px 8px -3px rgba(0,0,0,0.75);
+  box-shadow: 3px 6px 8px -3px rgba(0,0,0,0.75);
+}
+.Game-butn:enabled:hover {
+  background-color: white;
+  filter:brightness(150%);
+}
+.Game-butn:disabled {
+  cursor:not-allowed;
+}
+.Card-zone {
+  color:#706c6c;
+  font-size:1.5rem;
+  font-weight:900;
+  margin-top:-5%;
+  font-family:'Sci-fi';
+  display:grid;
+  grid-template-columns: 71px 71px 71px 71px;
+  grid-column-start:auto;
+  grid-row-gap:80px;
+  grid-column-gap:40px;
+  grid-template-rows:50px 50px;
+  width:69%;
+  height:90%;
+}
+.Card-zone > p {
+  border:1px solid white;
+  border-radius:10px;
+  background-color: white;
+  height:10vh;
+  padding-top:5vh;
+  text-align: center;
+}
