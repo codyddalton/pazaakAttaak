@@ -27,3 +27,6 @@ Pazaak is a card game from Star Wars which is similar to blackjack. The objectiv
 
 <h2 align="center">Where to Play Pazaak Attaak</h2>
 <p align="center">**Coming Soon**</p>
+
+<h2 align="center">Setting Up Pazaak Attaak Locally</h2>
+<p align="center">**Coming Soon**</p>
